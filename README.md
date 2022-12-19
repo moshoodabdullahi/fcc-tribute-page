@@ -1,6 +1,6 @@
 # FCC TRIBUTE-PAGE
 
-> One paragraph statement about the project.
+> A basic HTML and CSS element to demostrate styling.
 
 ![screenshot](abdullahi-fcc-tribute-page.netlify.app_.png)
 
@@ -9,16 +9,22 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML5 elements
-  - `h1`,
-  - `section`,
-  - `figcaption`, `figure`.
-- CSS elements
-  - `body`,
-  - `main`, `blockquote`.
+  - `h1`, `p`,
+  - `figure`, `span`,
+  - `strong`, `main`, `a`, `li`,
+  - `figcaption`, `label`, `ìnput`,
+  - `section`, `ul`, `cite`, `blockquote`.
+- CSS properties
+  - CSS Variables for reusable CSS values,
+  - CSS Media Query for page responsiveness using `@media` rule,
+  - CSS Positioning `center`,
+  - CSS Background for page aesthetic using `background-color`.
+  - `ul`, `li`, `a`,
+  - `main`, `blockquote`, `cite`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
-- Github Action
+- GitHub Action
 
 ## Live Demo
 

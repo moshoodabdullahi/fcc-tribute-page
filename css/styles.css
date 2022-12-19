@@ -3,19 +3,18 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
   color: #333;
   margin: 0;
-
 }
 
-@media(max-width: 460px) {
-main {
-  margin: 0;
-}
+@media (max-width: 460px) {
+  main {
+    margin: 0;
+  }
 }
 
 main {
@@ -25,63 +24,65 @@ main {
   background: #eee;
 }
 
-@media(max-width: 460px){
+@media (max-width: 460px) {
   h1 {
     font-size: 3.5rem;
     line-height: 1.2;
     margin-bottom: 0;
   }
-  }
-
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-
-img-caption {
-  margin: 15px 0 5px 0;
 }
 
-  img-div {
-    background-color: white;
-    padding: 10px;
-    margin: 0;
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
+img-caption {
+  margin: 15px 0 5px;
+}
+
+img-div {
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+/* stylelint-disable-next-line selector-type-no-unknown */
 headline {
   margin: 50px;
   text-align: center;
 }
 
-  ul {
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
-  }
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px;
+  text-align: left;
+  line-height: 1.6;
+}
 
-  li {
-    margin: 16px;
-  }
+li {
+  margin: 16px;
+}
 
-  blockquote {
-    font-style: italic;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-  }
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px;
+  text-align: left;
+}
 
-  cite {
-    font-style: italic;
-  }
+cite {
+  font-style: italic;
+}
 
-  a:visited {
-    color: #74638f;
-  }
+a:visited {
+  color: #74638f;
+}
+/* stylelint-disable-next-line no-descending-specificity */
 
-  a {
-    color: #477ca7;
-  }
-  
+/* stylelint-disable-next-line no-descending-specificity */
+a {
+  color: #477ca7;
+}
