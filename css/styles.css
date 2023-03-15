@@ -9,10 +9,13 @@ body {
   margin: 0;
 }
 
+a {
+  color: #477ca7;
+}
+
 a:visited {
   color: #74638f;
 }
-
 
 main {
   margin: 30px 8px;
@@ -63,10 +66,6 @@ blockquote {
   max-width: 545px;
   margin: 0 auto 50px;
   text-align: left;
-}
-
-a {
-  color: #477ca7;
 }
 
 @media (max-width: 460px) {
