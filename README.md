@@ -19,8 +19,6 @@ Additional description about the project and its features.
   - CSS Media Query for page responsiveness using `@media` rule,
   - CSS Positioning `center`,
   - CSS Background for page aesthetic using `background-color`.
-  - `ul`, `li`, `a`,
-  - `main`, `blockquote`, `cite`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
